@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large)
+data/raw/
+data/annotated/images/
+data/annotated/labels/
+data/sample_images/*.jpg
+data/sample_images/*.png
+data/evidence/
+
+# Model binaries
+models/detection/best.pt
+models/detection/best.onnx
+models/detection/best.engine
+models/regression/weight_model.pkl
+models/regression/scaler.pkl
+
+# Database
+*.db
+
+# Node
+node_modules/
+dashboard/dist/
+
+# Calibration
+calibration/camera_params.npy
