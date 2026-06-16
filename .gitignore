@@ -49,3 +49,10 @@ dashboard/dist/
 
 # Calibration
 calibration/camera_params.npy
+
+# Research PoC (Kaggle cattle-weight) — track the code, not data/artifacts/creds
+research/kaggle.json
+research/data/
+research/features.csv
+research/model_xgb.json
+research/results.png
